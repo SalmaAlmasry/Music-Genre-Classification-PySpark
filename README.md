@@ -8,7 +8,10 @@ This technology could be used by an application like Pandora to recommend songs 
 ### Source: https://www.kaggle.com/caparrini/beatsdataset
 beatsdataset.csv Each row is an electronic music song. The dataset contains 100 song for each genre among 23 electronic music genres, they were the top (100) songs of their genres on November 2016. The 71 columns are audio features extracted of a two random minutes sample of the file audio. These features have been extracted using pyAudioAnalysis (https://github.com/tyiannak/pyAudioAnalysis).
 ## Our Task
-Create an algorithm that classifies songs into the 23 genres provided. Test out several different models and select the highest performing one. Also play around with feature selection methods and finally try to make a recommendation to a user.
+Create an algorithm that classifies songs into the 23 genres provided. Test out several different models and select the highest performing one. Also play around with feature selection methods and finally try to make a recommendation to a user. <br> <br>
+
+![image](https://user-images.githubusercontent.com/53153292/227954901-6c78c7cc-dfd3-4408-bc24-b3d11ffdec71.png)
+
 ## Steps
 1) Cleaning and Preparing the data
 2) Using vector Assembler to convert the columns into vectorized feature that is used as input to the model.
@@ -24,6 +27,9 @@ We tried and evaluated each of the following models:
     - GBT Classifier
     - Random Forest
     - Decision Tree
+    <br>
+![image](https://user-images.githubusercontent.com/53153292/227953946-fa5b2afc-cafc-44d6-85a6-0cd283298c0f.png)
+
 5) Implementing the best model (Random Forest)
 6) Evaluating on the test set
 
